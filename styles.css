@@ -1,5 +1,9 @@
 .spinner {
-    /* Your styling */
+    width: 40px;
+    height: 40px;
+    border: 5px;
+    border-top: 5px;
+    border-radius: 50%;
     animation: spin 1s linear infinite; /* Required */
 }
 
@@ -9,15 +13,39 @@
 }
 
 .country-card {
-    background-color : rgb(168, 142, 168);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color : rgb(174, 135, 182);
     padding : 24px 32px;
+}
+
+#country-info{
+    align-items: center;
 }
 
 .border-grid{
     display : flex;
+    list-style: none;
+    background-color: rgb(224, 215, 224);
+    justify-content: center;
     border-color : rgb(65, 8, 65);
     border-width : 2px;
-    border-style : dashed;
+    border-style : solid;
+}
+
+#bordering-countries ul {
+    list-style: none;          
+    padding: 0;
+    margin: 0;
+    display: flex;             
+    gap: 10px;                
+    flex-wrap: wrap;           
+}
+
+#bordering-countries li {
+    text-align: center;        
 }
 
 .error {
