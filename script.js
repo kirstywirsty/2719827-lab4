@@ -4,7 +4,7 @@ async function searchCountry(countryName) {
     const countryInfo = document.getElementById("country-info");
     const bordersDiv = document.getElementById("bordering-countries");
 
-    
+    // comment
     errorDiv.classList.add("hidden");
     countryInfo.innerHTML = "";
     bordersDiv.innerHTML = "";
